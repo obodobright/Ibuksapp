@@ -10,7 +10,7 @@ const Navbar = () => {
       <Wrapper>
         <LogoImg />
         <Navigation>
-          <Nav>
+          <Nav to="/">
             <span>
               <BiHomeCircle />
             </span>
@@ -22,7 +22,7 @@ const Navbar = () => {
             </span>
             Settings
           </Nav>
-          <Nav>
+          <Nav to="/login">
             <span>
               <FaSignInAlt />
             </span>

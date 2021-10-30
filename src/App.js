@@ -1,11 +1,11 @@
 // import Home from "./WeatherForecast/homescreen";
 import "./App.css";
-import Home from "./Ibuks/Component/home";
+import Main from "./Ibuks/Component/Main";
 
 function App() {
   return (
     <div>
-      <Home />
+      <Main />
     </div>
   );
 }
